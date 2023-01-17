@@ -19,11 +19,9 @@ const [items, setItems] = useState(itemData);
     <div className={appClass}>
       <header>
         <h2>Shopster</h2>
-        <button onClick= {handleDarkModeClick}> 
-         {isDarkMode ? "dark" : "light"}
-        </button>
+        <button onClick= {handleDarkModeClick}>Dark Mode</button>
       </header>
-      <ShoppingList items={items} />
+      <ShoppingList items={itemData} />
     </div>
   );
 }

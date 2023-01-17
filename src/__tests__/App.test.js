@@ -28,3 +28,4 @@ test("changes back to 'light' mode when the button is clicked twice", () => {
 
   expect(container.querySelector(".light")).toBeInTheDocument();
 });
+
